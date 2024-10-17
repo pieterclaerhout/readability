@@ -34,7 +34,7 @@ defmodule Readability.Mixfile do
     test_watch_runtime = match?(["test.watch" | _], System.argv())
 
     [
-      {:floki, "~> 0.24"},
+      {:floki, ">= 0.30.0"},
       {:httpoison, "~> 1.8 or ~> 2.0"},
       {:ex_doc, "~> 0.31", only: :dev},
       {:credo, "~> 1.6", only: [:dev, :test]},
